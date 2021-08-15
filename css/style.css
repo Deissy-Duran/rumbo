@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+}  
+
+header{
+    width: 100%;
+    position: relative;
+    display: block;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+    padding-bottom: 120px;
+}
+
+header #navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    
+}
+
+
+header #navbar #logo a img{
+    transition: .3s;
+
+}
+
+header #navbar #logo a img:hover{
+    transform: translatex(20px);
+}
+
+
+header #navbar #menu{
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+header #navbar #menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+header #navbar #menu ul li{
+    list-style: none;
+    margin: 0 15px;
+
+}
+
+header #navbar #menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    transition: .3s;
+    border-bottom: 2px solid transparent;
+    padding: 12px;
+
+
+}
+
+header #navbar #menu ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+
+
+}
+
+
+header #infoheader{
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+header #infoheader img{
+    transition: .5s;
+}
+
+header #infoheader img:hover{
+    transform: rotate(360deg);
+
+
+}
+
+
+header #infoheader h1{
+    color: #e8f00c;
+    font-size: 45px;
+    margin: 0;
+
+}
+
+header #infoheader p{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+
+}
+
+header #infoheader button{
+    margin-top: 80px;
+    background: #e8f00c;
+    font-size: 28px;
+    color: #999999;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 150px;
+
+}    
+
+
+
+#planes{
+    width: 100%;
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 60px 0;
+
+}
+
+#planes h2{
+    font-size: 32px;
+}
+
+#planes .row{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#planes .row .card-plan{
+    position: relative;
+
+
+}
+
+#planes .row .card-plan h3{
+    position: absolute;
+    top: 95px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: yellow;
+
+
+}
+
+#planes .row .card-plan img{
+    transition: .3s;
+}
+
+
+
+#planes .row .card-plan:hover img{
+    border-radius: 50%;
+}
+
+#planes .row .card-plan:hover h3{
+    font-size: 36px;
+    top: 75px;
+}
+
+
+#destinos{
+    width: 100%;
+    position: relative;
+    display: block;
+    text-align: center;
+    background: url(../img/bg-destinos.png);
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 50px;
+
+}
+
+
+#destinos h2{
+    font-size: 32px;
+    color: #e8f00c;
+}
+
+
+#destinos .row{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+
+
+#destinos .row .lugares h3{
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+
+
+}
+
+#contacto{
+    width: 100%;b
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    padding: 50px 0;
+    background: #e8f00c;
+      
+
+}  
+
+
+#contacto .row {
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+
+#contacto .row .Contacto p{
+
+    background: #ffffff;
+    
+}
+
+#contacto button{
+    background: #898d0e;
+    color: #ffffff;
+    padding: 4px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+
+
+footer{
+    width: 100%;
+    position: relative;
+    display: block;
+    background: black;
+    padding: 20px 0 70px;
+
+
+}
+
+footer p{
+    color: #ffffff;
+    text-align: center;
+}
+
+
